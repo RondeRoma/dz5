@@ -449,7 +449,16 @@ button {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
+
+.thumb {
+  position: relative;
+}
+
 .title-par {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
