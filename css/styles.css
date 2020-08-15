@@ -236,6 +236,8 @@ button {
   justify-content: center;
 }
 
+/*Header*/
+
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -316,6 +318,48 @@ button {
   margin-right: 10px;
 }
 
+/*features*/
+
+.sect-minititle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.sect-par {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  padding: 0;
+  margin: 0;
+}
+/*Profile*/
+.thumb {
+  position: relative;
+}
+
+.title-par {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 27px 82px 27px 83px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*our-team*/
+
 .our-team {
   background-color: #f5f4fa;
   padding: 94px 0;
@@ -331,14 +375,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.sect-minititle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0 0 10px;
-}
+
 .team-decription {
   text-align: center;
   background-color: var(--white-color);
@@ -355,14 +392,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.sect-par {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  padding: 0;
-  margin: 0;
-}
+
 .team-p {
   font-size: 16px;
   line-height: 1.19;
@@ -391,6 +421,8 @@ button {
 .msngrs .msn-pdng:not(:last-child) {
   margin-right: 10px;
 }
+
+/*castomers*/
 
 .castomers {
   padding: 94px 0;
@@ -426,6 +458,8 @@ button {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
+
+/*portfolio*/
 
 .title-portf {
   font-weight: 700;
@@ -469,7 +503,7 @@ button {
 .portfolio-list img {
   display: block;
 }
-.portfolio-list .thumb {
+.portfolio-list .thumb-portf {
   position: relative;
   overflow: hidden;
 }
@@ -493,23 +527,6 @@ button {
   transform: translateY(0);
 }
 
-.title-par {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  padding: 27px 82px 27px 83px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .title-portf {
   margin: 0 0 4px;
 }
@@ -517,6 +534,8 @@ button {
 .pic-description {
   padding: 20px 24px;
 }
+
+/*footer*/
 
 footer {
   background: #2f303a;
